@@ -30,3 +30,22 @@ h1{
     max-width: 500px;
     margin: 0 auto;
 }
+.hero__texts{
+    flex-basis: 40%;
+    padding: 1em;
+}
+.hero__title{
+    font-size: 4em;
+}
+.hero__paragraph{
+    line-height: 1.5;
+    font-weight: 300;
+    padding: .7em 0;
+}
+.hero__cta{
+    display: inline-block;
+    background-color: slateblue;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+}
