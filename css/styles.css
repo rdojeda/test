@@ -49,3 +49,16 @@ h1{
     padding: 20px 30px;
     color: white;
 }
+@media screen and (min-width:850px){
+    .hero{
+        flex-direction: row;
+        align-items: center;
+    }
+    .hero__picture{
+        flex-grow: 1;
+        order:1;
+    }
+    .hero__img{
+        max-width: none;
+    }
+}
